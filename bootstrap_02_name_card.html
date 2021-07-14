@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <style>
+        body {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .container,.row{
+          width: 80vw;
+          border: 1px solid #000;
+          border-top-left-radius: 2.5rem;
+          border-bottom-right-radius: 2.5rem;
+      }
+      .container,.row,.col-12,.col{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .card{
+          border: 0;
+      }
+      .card-body{
+        padding: 0rem;
+      }
+    </style>
+</head>
+<body>
+    <!-- 順序要對，要先有 jQuery，再有 popper.js、bootstrap.js  -->
+    <!-- 3. src jquery -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <!-- 2. src  bootstrap.bundle.min.js 包含 bootstrap.js、popper.js-->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <div class="container">
+        <div class="row ">
+            <div class="col-12 col-lg-5 pt-3">
+                <div class="card">
+                    <div class="card-body" style="height: 300px;">
+                      <img class="align-self-center" src="https://image.flaticon.com/icons/png/512/1436/1436742.png" style="width:200px;height: 200px;" >
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-5 pb-3">
+                <div class="card ">
+                    <h6 class="card-subtitle mb-2 text-muted">Job Prospecting Engineer</h6>
+                    <h2 class="card-title ">CK-Lin</h2>
+                    <h6 class="card-subtitle mb-5 text-muted">The place you know best</h6>
+                    <p class="card-text">
+                        地址:你最熟悉的地方<br/>
+                        電話:深刻而塵封已久的十位數<br/>
+                        E-Mail:sóng-khuài@sóo-tsāi.cc<br/>
+                        網站:http://www.JPE.home.cc/
+                      </p>
+                </div>
+            </div>
+        
+        </div>
+        
+            
+        
+    </div>
+
+
+
+
+</body>
+</html>
+                  
